@@ -1,0 +1,196 @@
+body{
+    background-color: coral;
+}
+#face
+{
+    border-radius: 75px;
+    height:150px;
+    width: 150px;
+    background-color: white;
+    position: relative;
+    top: 150px;
+    left: 120px;
+}
+#eye1
+{
+    width: 40px;
+    height: 45px;
+    border-radius: 20px;
+    position: relative;
+    top: 30px;
+    left: 20px;
+    background-color:black;
+    transform: skew(-20deg);
+    float: left;
+}
+#eye2
+{
+    width: 40px;
+    height: 45px;
+    border-radius: 20px;
+    position: relative;
+    top: 30px;
+    right: 20px;
+    background-color:black;
+    transform: skew(20deg);
+    float: right;
+
+}
+#nose
+{
+    width: 30px;
+    height: 25px;
+    border-radius: 20px;
+    position: relative;
+    top: 90px;
+    left: 60px;
+    background-color:black;
+}
+#lid1
+{
+    width: 23px;
+    height: 23px;
+    border-radius: 25px;
+    position: relative;
+    top: 15px;
+    left: 5px;
+    background-color:wheat;
+    transform: skew(30deg);
+}
+#lid2
+{
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    position: relative;
+    top: -2px;
+    left: 10px;
+    background-color:black;
+    transform: skew(30deg);
+}
+#lid21
+{
+    width: 23px;
+    height: 23px;
+    border-radius: 25px;
+    position: relative;
+    top: 15px;
+    right: -5px;
+    background-color:wheat;
+}
+#lid22
+{
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    position: relative;
+    top: -2px;
+    right: -10px;
+    background-color:rgb(0, 0, 0);
+}
+#baby
+{
+    background-color: coral;
+    top: 120px;
+    width: 370px;
+    height: 700px;
+    position: relative;
+    left: 130px;
+    animation-name: ex;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes ex{
+    0% {left:0px;top:50px}
+    25% {left:50px;top:50px}
+    50% {left:50px;top:-50px}
+    75% {left:100px;top:50px}
+    100% {left:0px;top:50px}
+
+
+}
+#ear1
+{
+    width: 55px;
+    height: 55px;
+    border-radius: 45px;
+    position: relative;
+    top: 200px;
+    left: 100px;
+    background-color:black;
+    border: 5px solid beige;
+}
+#ear2
+{
+    width: 55px;
+    height: 55px;
+    border-radius: 45px;
+    top: 135px;
+    float: right;
+    position: relative;
+    right:85px;
+    background-color:black;
+    border: 5px solid beige;
+}
+#body
+{
+    width: 70px;
+    height: 150px;
+    border-radius: 50px;
+    background-color: blanchedalmond;
+    position: relative;
+    left: 150px;
+    top: 145px;
+    transform: scale(3,1);
+    transition: transform 2s;
+    color: black;
+    font-weight: bolder;
+    font-size: 20px;
+    font-family: sans-serif;
+    padding-top: 70px;
+    padding-left: 5px;
+    padding-right: 20px;
+    text-align: justify;
+    text-align: center;
+
+}
+#leg1
+{
+    width: 50px;
+    height: 70px;
+    border-radius: 25px;
+    background-color: black;
+    position: relative;
+    left: 100px;
+    top: -15px;
+}
+#leg2
+{
+    width: 50px;
+    height: 70px;
+    border-radius: 25px;
+    background-color: black;
+    position: relative;
+    top: -80px;
+    left: 250px;
+}
+#hand1
+{
+    width: 50px;
+    height: 70px;
+    border-radius: 25px;
+    background-color: black;
+    position: relative;
+    left: 20px;
+
+}
+#hand2
+{
+    width: 50px;
+    height: 70px;
+    border-radius: 25px;
+    background-color: black;
+    position: relative;
+    left: 320px;
+    top: -55px;
+}
