@@ -54,7 +54,7 @@ body{
     position: relative;
     top: 15px;
     left: 5px;
-    background-color:wheat;
+    background-color:white;
     transform: skew(30deg);
 }
 #lid2
@@ -76,7 +76,7 @@ body{
     position: relative;
     top: 15px;
     right: -5px;
-    background-color:wheat;
+    background-color:white;
 }
 #lid22
 {
@@ -101,11 +101,11 @@ body{
     animation-iteration-count: infinite;
 }
 @keyframes ex{
-    0% {left:-30px;top:-150px}
-    25% {left:0px;top:-100px}
-    50% {left:-30px;top:-150px}
-    75% {left:0px;top:-100px}
-    100% {left:-30px;top:-150px}
+    0% {left:-50px;top:-220px}
+    25% {left:-30px;top:-150px}
+    50% {left:-50px;top:-220px}
+    75% {left:-30px;top:-150px}
+    100% {left:-50px;top:-220px}
 
 
 }
@@ -118,7 +118,7 @@ body{
     top: 200px;
     left: 100px;
     background-color:black;
-    border: 5px solid beige;
+    border: 5px solid white;
 }
 #ear2
 {
@@ -130,14 +130,14 @@ body{
     position: relative;
     right:85px;
     background-color:black;
-    border: 5px solid beige;
+    border: 5px solid white;
 }
 #body
 {
     width: 70px;
     height: 150px;
     border-radius: 50px;
-    background-color: blanchedalmond;
+    background-color:white;
     position: relative;
     left: 150px;
     top: 145px;
